@@ -1,3 +1,11 @@
 select, input {
 	width: 100px;
 }
+
+#btnDelete {
+	background-color: red;
+}
+
+#btnAdd {
+	background-color: lightblue;
+} 
