@@ -1,3 +1,61 @@
-select, input {
-	width: 100px;
+@import url(&#39;https://fonts.googleapis.com/css?family=Rubik&#39;);
+body {
+font-family: &#39;Rubik&#39;, sans-serif;
+}
+* {
+box-sizing: content-box;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+article {
+background: #CCC;
+width: 180px;
+padding: 10px;
+margin: 10px;
+display: inline-block;
+vertical-align: top;
+}
+article&gt;header {
+background: #5F5F5F;
+color: white;
+margin: 0px 0px 10px 0px;
+padding: 4px 6px;
+}
+article&gt;header&gt;h1 {
+margin: 0px;
+}
+article&gt;select {
+width: 178px;
+}
+article&gt;input {
+width: 176px;
+}
+article&gt;button {
+display: block;
+margin: 10px auto 0px auto;
+border: none;
+border-radius: 3px;
+padding: 5px 15px;
+background: green;
+color: white;
+font-weight: bold;
+}
+article&gt;button:hover {
+box-shadow: 0px 0px 10px white;
+cursor: pointer;
+}
+button#btnDelete {
+background: red;
+}
+#result {
+display: none;
+width: 50%;
+margin: 10px auto;
+padding: 10px 15px;
+background: #DDD;
+border-radius: 5px;
+border: 1px solid #777;
 }
